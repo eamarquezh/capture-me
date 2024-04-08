@@ -6,8 +6,9 @@ function Footer() {
             <div className="container mx-auto flex justify-between items-center flex-col lg:flex-row">
 
                 <div className="text-white flex flex-col items-center m-4 lg:mb-0">
-                
-                <a href="https://www.buymeacoffee.com/eamarquezh" target="_blank" className="text-gray-300 hover:text-white">☕Buy me a cofee</a>
+                    <a href="https://www.buymeacoffee.com/eamarquezh" target="_blank" className="text-gray-300 hover:text-white">
+                        ☕Buy me a cofee
+                    </a>
                 </div>
 
                 <div className="text-white flex flex-col items-center m-4 lg:mb-0">
@@ -17,8 +18,9 @@ function Footer() {
                 </div>
 
                 <div className="text-white flex flex-col items-center m-4 lg:mb-0">
-
-                <a href="https://github.com/eamarquezh" target="_blank" className="text-gray-300 hover:text-white">😊About dev: @eamarquezh</a>
+                    <a href="https://github.com/eamarquezh" target="_blank" className="text-gray-300 hover:text-white">
+                        😊About dev: @eamarquezh
+                    </a>
                 </div>
             </div>
         </footer>   
