@@ -14,7 +14,7 @@ export const capture = () => {
             mediaRecorder.addEventListener("dataavailable", (e) => {
                 const link = document.createElement("a")
                 link.href = URL.createObjectURL(e.data)
-                link.download = "captura.webm"
+                link.download = "capture.webm"
                 link.click();
             });
         })

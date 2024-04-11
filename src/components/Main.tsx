@@ -21,6 +21,17 @@ function Main() {
         <p className="text-base font-mono text-center">
             Capture your screen without worries, simply press the 'Capture Me' button, and you can choose the method of recording. When finished, just press 'Stop,' and your video will be downloaded in WebM format.
         </p>
+        <div className="flex justify-center items-center aspect-w-16 aspect-h-9">
+            <iframe
+                width="476"
+                height="268"
+                src="https://www.youtube.com/embed/mqPhLIemuR0?si=E4lPlW0Z92nH42oL"
+                title="How to use captureme"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+            ></iframe>
+        </div>
         <div className="items-center m-2">
             <p className="text-base font-mono text-center">
                 Captureme is free, but if you feel it's worth it,you can buy me a coffee with the following button.
