@@ -36,7 +36,7 @@ function Main() {
             <p className="text-base font-mono text-center">
                 Captureme is free, but if you feel it's worth it,you can buy me a coffee with the following button.
             </p>
-            <a href='https://www.buymeacoffee.com/eamarquezh'>
+            <a href='https://www.buymeacoffee.com/eamarquezh' target='_blank'>
                 <img className="filter drop-shadow-xl mx-auto w-36" 
                 src={buttonDonation} 
                 alt="logo de capturapp" 

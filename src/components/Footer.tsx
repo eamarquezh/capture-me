@@ -2,7 +2,7 @@
 function Footer() {
     return (
       <>
-        <footer className="fixed bottom-0 w-full bg-gray-800">
+        <footer className="sticky bottom-0 w-full bg-gray-800">
             <div className="container mx-auto flex justify-between items-center flex-col lg:flex-row">
 
                 <div className="text-white flex flex-col items-center m-2 lg:mb-0">
