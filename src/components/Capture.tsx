@@ -1,5 +1,14 @@
 export const capture = () => {
-    navigator.mediaDevices.getDisplayMedia({ video: { frameRate: { ideal: 30 } } })
+    const mediaStreamConstraints = {
+        video: { frameRate: { ideal: 30 } },
+        audio: {
+            echoCancellation: true,
+            noiseSuppression: true,
+            sampleRate: 44100
+        }
+    };
+
+    navigator.mediaDevices.getDisplayMedia(mediaStreamConstraints)
         .then(media => {
             const mediaRecorder = new MediaRecorder(media, {
                 mimeType: 'video/webm;codecs=vp8,opus'
